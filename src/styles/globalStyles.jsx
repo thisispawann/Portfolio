@@ -41,6 +41,7 @@ export const GlobalStyles = createGlobalStyle`
         transition: all 0.5s linear;
         font-family: 'Raleway', sans-serif;
     }
+
     .social{
         background: ${({theme }) => theme.body};
         fill: ${({theme }) => theme.social};
@@ -77,6 +78,7 @@ export const GlobalStyles = createGlobalStyle`
         transition: all 0.5s linear;
         font-family: 'Raleway', sans-serif;
     }
+    
 `;
 
 export const lightTheme = {

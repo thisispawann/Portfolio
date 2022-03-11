@@ -13,7 +13,7 @@ import Projects from './Projects';
 import Resume from './Resume';
 import Navbar from './Navbar/Navbar';
 import Footer from './Footer';
-
+import BlogOne from './BlogOne';
 
 function App() {
   const [theme, toggleTheme ] = useDarkMode();
@@ -31,6 +31,7 @@ function App() {
               <Route exact path="/blog" component={Blog} />
               <Route exact path="/project" component={Projects} />
               <Route exact path="/resume" component={Resume} />
+              <Route exact path="/virtual-environment" component={BlogOne} />
               <Redirect to="/" />
             </Switch>
             <Footer />
