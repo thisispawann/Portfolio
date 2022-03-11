@@ -126,7 +126,9 @@ hr {
 .icons-container a {
   margin: 0 1rem;
 }
-
+.card-title{
+  text-decoration: none;
+}
 .git-icon:hover {
   opacity: 1;
 }

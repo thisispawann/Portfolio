@@ -78,6 +78,17 @@ export const GlobalStyles = createGlobalStyle`
         transition: all 0.5s linear;
         font-family: 'Raleway', sans-serif;
     }
+
+    .bg{
+        background: ${({theme }) => theme.bg};
+        color: ${({theme }) => theme.text};
+        /* transition: all 0.5s linear; */
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .icons{
+        color: ${({theme }) => theme.text};
+    }
     
 `;
 
@@ -103,5 +114,7 @@ export const darkTheme = {
     react:'#FF5630 !important',
     camp: 'blue !important',
     btntext: '#000 !important',
-    primary: '#fff !important'
+    primary: '#fff !important',
+    bg: '#333 !important',
+    icons:'#fff !important'
 };

@@ -19,17 +19,17 @@ const BlogOne = () => {
                     <p>You usually want to create one virtual environment per new Python application, therefore let's create a directory for our application and 
                         consider as django-project</p> 
                     <p>Do that by typing in your command prompt or terminal:</p>
-                    <p style={{backgroundColor: "#dee2e6", padding: '30px 10px', borderRadius:"4px"}}>mkdir django-project</p>
+                    <p className="bg" style={{backgroundColor: "#dee2e6", padding: '30px 10px', borderRadius:"4px"}}>mkdir django-project</p>
                     <p>Let's move into that directory by inputting:</p>
-                    <p style={{backgroundColor: "#dee2e6", padding: '30px 10px', borderRadius:"4px"}}>cd django-project</p>
+                    <p className="bg" style={{backgroundColor: "#dee2e6", padding: '30px 10px', borderRadius:"4px"}}>cd django-project</p>
                 </div>
                 <div className="container">
                     <h5 className="font-weight-bold">Create your Python virtual environment</h5>    
                     <p>Create a virtual environment called env by writing:</p>
-                    <p style={{backgroundColor: "#dee2e6", padding: '30px 10px', borderRadius:"4px"}}>python3 -m venv env</p>
+                    <p  className="bg" style={{backgroundColor: "#dee2e6", padding: '30px 10px', borderRadius:"4px"}}>python3 -m venv env</p>
                     <h5 className="font-weight-bold">Activate the virtual environment</h5>
                    <p> To activate the virtual environment:</p>
-                    <p style={{backgroundColor: "#dee2e6", padding: '30px 10px', borderRadius:"4px"}}>env\Scripts\activate</p>
+                    <p  className="bg" style={{backgroundColor: "#dee2e6", padding: '30px 10px', borderRadius:"4px"}}>env\Scripts\activate</p>
                 </div>
                 <div className="container">
                 <p>Congratulations! you have now created and activated your own Python virtual environment.</p>
