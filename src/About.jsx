@@ -1,5 +1,5 @@
 import React from 'react'
-import web from "../src/images/thumb2.jpg";
+import web from "../src/images/thumb3.jpg";
 
  const About = () => {
     return (
@@ -13,7 +13,7 @@ import web from "../src/images/thumb2.jpg";
                 <img width="230" height="300" src={web} className="about-image" alt="about img"/>
                 <article className="w-75 m-auto pt-2 text-left about-container">
                     <p className="text-center">
-                        <span>&nbsp;<b>Software Engineer</b>&nbsp; ☕️ ⚛</span> 
+                        <span>&nbsp;<b>Software Engineer</b>&nbsp; ⚛</span> 
                         <span>&nbsp;<b>Software Engineer</b>&nbsp; ⚛</span>
                         <span>&nbsp;<b>Software Engineer</b>&nbsp; ⚛</span>
                         <span>&nbsp;<b>Software Engineer</b>&nbsp; ⚛</span>
@@ -37,13 +37,13 @@ import web from "../src/images/thumb2.jpg";
                         <div className="pt-2">
                             <h4 className="skills">Skills:</h4>
                             <p>
-                                <strong>Languages:</strong> JavaScript (ES5. ES6+), HTML5, CSS (CSS3), MySQL, C, Python
+                                <strong>Languages:</strong> JavaScript (ES5. ES6+), HTML5, CSS (CSS3), MySQL, Python, Java
                             </p>
                             <p>
-                                <strong>Frameworks/Libraries:</strong> Python, Java, React.js, Gatsby.js, Redux, Material UI, Styled-Components, yarn, npm, babel
+                                <strong>Frameworks/Libraries:</strong> Python, Spring Boot, Microservices, React.js, Gatsby.js, Redux, Material UI, Styled-Components, yarn, npm, babel
                             </p>
                             <p>
-                                <strong>Version control:</strong> Git, Bitbucket
+                                <strong>Version control:</strong> Git, Bitbucket, CI/CD
                             </p>
                         </div>
                     </div>

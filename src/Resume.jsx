@@ -8,7 +8,7 @@ import datacamp from '../src/images/datacamp.svg';
 import duke from '../src/images/duke.png';
 import udemy from '../src/images/udemy.png';
 import freecodecamp from '../src/images/freecodecamp.png';
-import CV from "./assets/Pawan_Kumar_Shrestha.pdf";
+import CV from "./assets/Pawan Kumar Shrestha.pdf";
 
 const Resume = () => {
     return (
