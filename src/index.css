@@ -126,9 +126,9 @@ hr {
 .icons-container a {
   margin: 0 1rem;
 }
-.card-title{
+/* .card-title{
   text-decoration: none;
-}
+} */
 .git-icon:hover {
   opacity: 1;
 }
@@ -166,9 +166,9 @@ hr {
   .resume-wrapper {
     margin-top: 43rem;
   }
-  .card {
+  /* .card {
     margin-top: 34rem !important;
-  }
+  } */
   .navbar-light .navbar-toggler {
     border-color: transparent;
     background: #8a8a8a1f;
@@ -396,7 +396,7 @@ ul li {
   cursor: pointer;
 }
 
-.card-title {
+/* .card-title {
   font-size: 1.4rem;
   color: #007bff;
 }
@@ -411,7 +411,7 @@ ul li {
 
 .card-text {
   color: #696969;
-}
+} */
 
 .my-btn {
   color: #fff !important;
@@ -432,4 +432,72 @@ ul li {
 
 .fitness {
   margin-top: 8rem;
+}
+
+
+/* newly added  */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.card-title:hover {
+  text-decoration: underline;
+}
+
+.card-date {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.card-text {
+  color: #696969;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
 }
